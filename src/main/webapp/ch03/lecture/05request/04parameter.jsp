@@ -11,7 +11,6 @@
 	String query = request.getParameter("q");
 	query = (query == null) ? "" : query;
 	%>
-	<h1><%=query%>검색 결과
-	</h1>
+	<h1> <%=query%> 검색 결과 </h1>
 </body>
 </html>
