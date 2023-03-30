@@ -7,4 +7,4 @@ request.setAttribute("name", "서태웅");
 %>
 
 
-<jsp:forward page="08attribute.jsp"></jsp:forward>
+<jsp:forward page="08attribute-to.jsp"></jsp:forward>
