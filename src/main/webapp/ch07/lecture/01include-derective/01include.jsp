@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 	<h1>1번 상단</h1>
 	
 	<%@ include file="02sub.jsp" %>
