@@ -3,7 +3,9 @@
 <%@ page import="java.util.*" %>
 
 <jsp:forward page="06to.jsp">
+
 	<jsp:param value="강백호" name="name"></jsp:param>
 	<jsp:param value="농구" name="sports"></jsp:param>
+	
 </jsp:forward>
 

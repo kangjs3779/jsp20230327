@@ -8,13 +8,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="05name.jsp">이름 등록 페이지</a>
-	<a href="06name.jsp">메일 보기</a>
-	<a href="07name.jsp">뉴스 보기</a>
+	<a href="05name.jsp">이름 등록 페이지</a> <br>
+	<a href="06name.jsp">메일 보기</a> <br>
+	<a href="07name.jsp">뉴스 보기</a> <br>
 
 	<form action="" method="post">
-	이름 <input type="text" name="username" value="채소연"/>
-	<input type="submit" value="등록" />
+		이름 <input type="text" name="username" />
+		<input type="submit" value="등록" />
 	</form>
 	
 	<%
