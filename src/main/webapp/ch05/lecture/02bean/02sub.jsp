@@ -18,6 +18,6 @@
 	
 	<div>이름 : <%=b.getName %></div>
 	<div>나이 : <%=b.getAge %></div>
-	<div>이름 : <%=b.get.isMarried %></div>
+	<div>이름 : <%=b.getIsMarried %></div>
 </body>
 </html>

@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="java.util.*" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,8 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>2번 파일</h1>
-	<h1>session 참조값 : <%=System.identityHashCode(session) %></h1>
-	<h1>cookie 값 : <%= request.getCookies() %></h1>
+	<h1>02review파일 </h1>
+	
+	<a href="01review.jsp">01review로 이동 </a>
+	
 </body>
 </html>

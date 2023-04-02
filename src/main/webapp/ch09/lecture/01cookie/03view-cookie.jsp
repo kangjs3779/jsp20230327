@@ -8,6 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 	<h1>3번 파일</h1>
 	<h1>쿠키 헤더 : <%= request.getHeader("cookie") %></h1>
 	
@@ -21,5 +22,6 @@
 	<% 	
 	}
 	%>
+	
 </body>
 </html>
