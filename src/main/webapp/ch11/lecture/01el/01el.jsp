@@ -17,7 +17,6 @@
  	o1.setFirstName("son");
  	o1.setLastName("hm");
  	
- 	
  	request.setAttribute("a1", o1);
  %>
  

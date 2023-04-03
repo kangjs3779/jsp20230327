@@ -27,9 +27,9 @@
 	%>
 
 
-	<p>${list1[0].items[0] }</p> <!-- java -->
-	<p>${list1[1].items[0] }</p> <!-- spring -->
-	<p>${list1[0].items[1] }</p> <!-- jsp -->
-	<p>${list1[1].items[1] }</p> <!-- bootstrap -->
+	<p>${list1[0].items[0] } : java</p> <!-- java -->
+	<p>${list1[1].items[0] } : spring</p> <!-- spring -->
+	<p>${list1[0].items[1] } : jsp</p> <!-- jsp -->
+	<p>${list1[1].items[1] } " bootstrap</p> <!-- bootstrap -->
 </body>
 </html>

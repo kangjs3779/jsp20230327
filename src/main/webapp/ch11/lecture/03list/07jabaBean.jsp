@@ -29,6 +29,7 @@
 	<p>${people[0].name }</p>
 	<p>${people[1].name }</p>
 	<p>${people[2].name }</p>
+	
 	<!-- property명을 통해서 property값을 뽑음 -->
 	
 	

@@ -25,11 +25,11 @@
 	
 	%>
 	
-	<p>${people[0].name }</p>
-	<p>${people[1].name }</p>
-	<p>${people[0].items[0] }</p>
-	<p>${people[0].items[1] }</p>
-	<p>${people[1].items[0] }</p>
-	<p>${people[1].items[1] }</p>
+	<p>${people[0].name } : 강백호 </p> 
+	<p>${people[1].name } : 이한나 </p>
+	<p>${people[0].items[0] } : 농구화 </p>
+	<p>${people[0].items[1] } : 농구공 </p>
+	<p>${people[1].items[0] } : 클립보드 </p>
+	<p>${people[1].items[1] } : 볼펜 </p>
 </body>
 </html>

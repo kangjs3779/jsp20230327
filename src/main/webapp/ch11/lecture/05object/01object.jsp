@@ -13,6 +13,7 @@
 	
 	<!-- attribute에서 찾지않고 기본객체에서 바로 찾음 -->
 	<!-- 그러니까 이런 이름으로 attribute의 이름을 짓지 마라 -->
+	
 	<p>${pageContext }</p> <!-- 가끔 -->
 	<p>${pageScope }</p> <!-- 가끔 -->
 	<p>${requestScope }</p> <!-- 가끔 -->
