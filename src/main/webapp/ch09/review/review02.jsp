@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="java.util.*" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,8 +7,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>2번 파일</h1>
-	<h1>session 참조값 : <%=System.identityHashCode(session) %></h1>
-	<h1>cookie 값 : <%= request.getCookies() %></h1>
+	<%
+	Cookie cookie1 = new Cookie("daon", "12");
+	Cookie cookie2 = new Cookie("raon", "13");
+	
+	cookie1.setMaxAge(0);
+	cookie2.setMaxAge(0);
+	
+	response.addCookie(cookie1);
+	response.addCookie(cookie2);
+	%>
 </body>
 </html>
