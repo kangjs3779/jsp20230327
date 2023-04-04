@@ -17,8 +17,9 @@
 	%>
 	
 	<p>${mymap[mykey] }</p> <!-- 뭐가 나올지 예상해 봐라 -->
-	<!-- mykey라는 어트리튜트를 찾고 그 값을 출력함 -->
 	<p>${mymap.mykey }</p>
 	<p>${mymap["mykey"] }</p>
+	
+	<!-- mykey라는 어트리튜트를 찾고 그 값을 출력함 -->
 </body>
 </html>
