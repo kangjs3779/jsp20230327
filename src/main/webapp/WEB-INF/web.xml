@@ -13,7 +13,46 @@
   <!-- 세션 설정 -->
   <!-- 다 작성을 끝내고 저장을 할 것(안그러면 톰캣이 일을 해서 느려짐) -->
   <session-config>
-  	<session-timeout>30</session-timeout>
-  
+  	<session-timeout>30</session-timeout>  
   </session-config>
+  
+  <!-- 필터 설정 -->
+<filter-mapping>
+	<filter-name>filter08</filter-name>
+	<url-pattern>/lec/sample17</url-pattern>
+</filter-mapping>
+
+<filter-mapping>
+	<filter-name>filter07</filter-name>
+	<url-pattern>/lec/sample17</url-pattern>
+</filter-mapping>
+
+<filter-mapping>
+	<filter-name>filter10</filter-name>
+	<url-pattern>/lec/sample18</url-pattern>
+</filter-mapping>
+
+<filter-mapping>
+	<filter-name>filter09</filter-name>
+	<url-pattern>/lec/sample18</url-pattern>
+	<url-pattern>/lec/sample19</url-pattern>
+	<url-pattern>/lec/sample20</url-pattern>
+</filter-mapping>
+  
 </web-app>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
